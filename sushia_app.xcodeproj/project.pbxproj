@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4180F6253090C0001DD9C0 /* sushia_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4180F5253090C0001DD9C0 /* sushia_appApp.swift */; };
+		BD4180F8253090C0001DD9C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4180F7253090C0001DD9C0 /* ContentView.swift */; };
+		BD4180FA253090C2001DD9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4180F9253090C2001DD9C0 /* Assets.xcassets */; };
+		BD4180FD253090C2001DD9C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4180FC253090C2001DD9C0 /* Preview Assets.xcassets */; };
+		BD418108253090C2001DD9C0 /* sushia_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD418107253090C2001DD9C0 /* sushia_appTests.swift */; };
+		BD418113253090C2001DD9C0 /* sushia_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD418112253090C2001DD9C0 /* sushia_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD418104253090C2001DD9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4180EA253090C0001DD9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4180F1253090C0001DD9C0;
+			remoteInfo = sushia_app;
+		};
+		BD41810F253090C2001DD9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4180EA253090C0001DD9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4180F1253090C0001DD9C0;
+			remoteInfo = sushia_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD4180F2253090C0001DD9C0 /* sushia_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushia_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4180F5253090C0001DD9C0 /* sushia_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushia_appApp.swift; sourceTree = "<group>"; };
+		BD4180F7253090C0001DD9C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD4180F9253090C2001DD9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4180FC253090C2001DD9C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD4180FE253090C2001DD9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD418103253090C2001DD9C0 /* sushia_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushia_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD418107253090C2001DD9C0 /* sushia_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushia_appTests.swift; sourceTree = "<group>"; };
+		BD418109253090C2001DD9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD41810E253090C2001DD9C0 /* sushia_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushia_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD418112253090C2001DD9C0 /* sushia_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushia_appUITests.swift; sourceTree = "<group>"; };
+		BD418114253090C2001DD9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4180EF253090C0001DD9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD418100253090C2001DD9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41810B253090C2001DD9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4180E9253090C0001DD9C0 = {
+			isa = PBXGroup;
+			children = (
+				BD4180F4253090C0001DD9C0 /* sushia_app */,
+				BD418106253090C2001DD9C0 /* sushia_appTests */,
+				BD418111253090C2001DD9C0 /* sushia_appUITests */,
+				BD4180F3253090C0001DD9C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4180F3253090C0001DD9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4180F2253090C0001DD9C0 /* sushia_app.app */,
+				BD418103253090C2001DD9C0 /* sushia_appTests.xctest */,
+				BD41810E253090C2001DD9C0 /* sushia_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4180F4253090C0001DD9C0 /* sushia_app */ = {
+			isa = PBXGroup;
+			children = (
+				BD4180F5253090C0001DD9C0 /* sushia_appApp.swift */,
+				BD4180F7253090C0001DD9C0 /* ContentView.swift */,
+				BD4180F9253090C2001DD9C0 /* Assets.xcassets */,
+				BD4180FE253090C2001DD9C0 /* Info.plist */,
+				BD4180FB253090C2001DD9C0 /* Preview Content */,
+			);
+			path = sushia_app;
+			sourceTree = "<group>";
+		};
+		BD4180FB253090C2001DD9C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD4180FC253090C2001DD9C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD418106253090C2001DD9C0 /* sushia_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD418107253090C2001DD9C0 /* sushia_appTests.swift */,
+				BD418109253090C2001DD9C0 /* Info.plist */,
+			);
+			path = sushia_appTests;
+			sourceTree = "<group>";
+		};
+		BD418111253090C2001DD9C0 /* sushia_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD418112253090C2001DD9C0 /* sushia_appUITests.swift */,
+				BD418114253090C2001DD9C0 /* Info.plist */,
+			);
+			path = sushia_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4180F1253090C0001DD9C0 /* sushia_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD418117253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_app" */;
+			buildPhases = (
+				BD4180EE253090C0001DD9C0 /* Sources */,
+				BD4180EF253090C0001DD9C0 /* Frameworks */,
+				BD4180F0253090C0001DD9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sushia_app;
+			productName = sushia_app;
+			productReference = BD4180F2253090C0001DD9C0 /* sushia_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD418102253090C2001DD9C0 /* sushia_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41811A253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_appTests" */;
+			buildPhases = (
+				BD4180FF253090C2001DD9C0 /* Sources */,
+				BD418100253090C2001DD9C0 /* Frameworks */,
+				BD418101253090C2001DD9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD418105253090C2001DD9C0 /* PBXTargetDependency */,
+			);
+			name = sushia_appTests;
+			productName = sushia_appTests;
+			productReference = BD418103253090C2001DD9C0 /* sushia_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD41810D253090C2001DD9C0 /* sushia_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41811D253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_appUITests" */;
+			buildPhases = (
+				BD41810A253090C2001DD9C0 /* Sources */,
+				BD41810B253090C2001DD9C0 /* Frameworks */,
+				BD41810C253090C2001DD9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD418110253090C2001DD9C0 /* PBXTargetDependency */,
+			);
+			name = sushia_appUITests;
+			productName = sushia_appUITests;
+			productReference = BD41810E253090C2001DD9C0 /* sushia_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4180EA253090C0001DD9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BD4180F1253090C0001DD9C0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					BD418102253090C2001DD9C0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BD4180F1253090C0001DD9C0;
+					};
+					BD41810D253090C2001DD9C0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BD4180F1253090C0001DD9C0;
+					};
+				};
+			};
+			buildConfigurationList = BD4180ED253090C0001DD9C0 /* Build configuration list for PBXProject "sushia_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4180E9253090C0001DD9C0;
+			productRefGroup = BD4180F3253090C0001DD9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4180F1253090C0001DD9C0 /* sushia_app */,
+				BD418102253090C2001DD9C0 /* sushia_appTests */,
+				BD41810D253090C2001DD9C0 /* sushia_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4180F0253090C0001DD9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4180FD253090C2001DD9C0 /* Preview Assets.xcassets in Resources */,
+				BD4180FA253090C2001DD9C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD418101253090C2001DD9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41810C253090C2001DD9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4180EE253090C0001DD9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4180F8253090C0001DD9C0 /* ContentView.swift in Sources */,
+				BD4180F6253090C0001DD9C0 /* sushia_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4180FF253090C2001DD9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD418108253090C2001DD9C0 /* sushia_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41810A253090C2001DD9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD418113253090C2001DD9C0 /* sushia_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD418105253090C2001DD9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4180F1253090C0001DD9C0 /* sushia_app */;
+			targetProxy = BD418104253090C2001DD9C0 /* PBXContainerItemProxy */;
+		};
+		BD418110253090C2001DD9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4180F1253090C0001DD9C0 /* sushia_app */;
+			targetProxy = BD41810F253090C2001DD9C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD418115253090C2001DD9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD418116253090C2001DD9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD418118253090C2001DD9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sushia_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sushia_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD418119253090C2001DD9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sushia_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sushia_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD41811B253090C2001DD9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sushia_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushia_app.app/sushia_app";
+			};
+			name = Debug;
+		};
+		BD41811C253090C2001DD9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sushia_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushia_app.app/sushia_app";
+			};
+			name = Release;
+		};
+		BD41811E253090C2001DD9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sushia_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sushia_app;
+			};
+			name = Debug;
+		};
+		BD41811F253090C2001DD9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sushia_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemreonur.sushia-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sushia_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4180ED253090C0001DD9C0 /* Build configuration list for PBXProject "sushia_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD418115253090C2001DD9C0 /* Debug */,
+				BD418116253090C2001DD9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD418117253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD418118253090C2001DD9C0 /* Debug */,
+				BD418119253090C2001DD9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD41811A253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41811B253090C2001DD9C0 /* Debug */,
+				BD41811C253090C2001DD9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD41811D253090C2001DD9C0 /* Build configuration list for PBXNativeTarget "sushia_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41811E253090C2001DD9C0 /* Debug */,
+				BD41811F253090C2001DD9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4180EA253090C0001DD9C0 /* Project object */;
+}
