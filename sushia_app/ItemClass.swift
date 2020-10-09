@@ -19,7 +19,7 @@ struct ItemClass: View {
             Spacer()
             VStack(alignment: .leading , spacing : 0)
             {
-                Text(self.item!.title).font(.system(size: 22 , weight: .semibold)).lineLimit(1)
+                Text(self.item!.title).font(.system(size: 22 , weight: .semibold)).lineLimit(1).foregroundColor(Color("blackColor"))
                 Spacer().frame(height: 10)
                 HStack
                 {
@@ -27,7 +27,7 @@ struct ItemClass: View {
                     {
                         Text(self.item!.subtitle).font(.system(size: 18)).foregroundColor(Color("grayColor"))
                         Spacer().frame(height: 10)
-                        Text("$" + String(self.item!.price) + "0").bold()
+                        Text("$" + String(self.item!.price) + "0").bold().foregroundColor(Color("blackColor"))
                     }
                     Spacer()
                     Image(systemName: "plus.circle.fill").font(.system(size: 40)).foregroundColor(Color(self.item!.bgColor))
