@@ -13,6 +13,10 @@
 		BD4180FD253090C2001DD9C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4180FC253090C2001DD9C0 /* Preview Assets.xcassets */; };
 		BD418108253090C2001DD9C0 /* sushia_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD418107253090C2001DD9C0 /* sushia_appTests.swift */; };
 		BD418113253090C2001DD9C0 /* sushia_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD418112253090C2001DD9C0 /* sushia_appUITests.swift */; };
+		BD418124253099DB001DD9C0 /* MenuClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD418123253099DB001DD9C0 /* MenuClass.swift */; };
+		BD41812925309E5E001DD9C0 /* ItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41812825309E5E001DD9C0 /* ItemClass.swift */; };
+		BD4181482530CED4001DD9C0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4181472530CED4001DD9C0 /* DetailView.swift */; };
+		BD41814D2530DE93001DD9C0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41814C2530DE93001DD9C0 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		BD41810E253090C2001DD9C0 /* sushia_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushia_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD418112253090C2001DD9C0 /* sushia_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushia_appUITests.swift; sourceTree = "<group>"; };
 		BD418114253090C2001DD9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD418123253099DB001DD9C0 /* MenuClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuClass.swift; sourceTree = "<group>"; };
+		BD41812825309E5E001DD9C0 /* ItemClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemClass.swift; sourceTree = "<group>"; };
+		BD4181472530CED4001DD9C0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BD41814C2530DE93001DD9C0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				BD4180F9253090C2001DD9C0 /* Assets.xcassets */,
 				BD4180FE253090C2001DD9C0 /* Info.plist */,
 				BD4180FB253090C2001DD9C0 /* Preview Content */,
+				BD418123253099DB001DD9C0 /* MenuClass.swift */,
+				BD41812825309E5E001DD9C0 /* ItemClass.swift */,
+				BD4181472530CED4001DD9C0 /* DetailView.swift */,
+				BD41814C2530DE93001DD9C0 /* HomeView.swift */,
 			);
 			path = sushia_app;
 			sourceTree = "<group>";
@@ -146,6 +158,8 @@
 			dependencies = (
 			);
 			name = sushia_app;
+			packageProductDependencies = (
+			);
 			productName = sushia_app;
 			productReference = BD4180F2253090C0001DD9C0 /* sushia_app.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +231,8 @@
 				Base,
 			);
 			mainGroup = BD4180E9253090C0001DD9C0;
+			packageReferences = (
+			);
 			productRefGroup = BD4180F3253090C0001DD9C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD418124253099DB001DD9C0 /* MenuClass.swift in Sources */,
 				BD4180F8253090C0001DD9C0 /* ContentView.swift in Sources */,
 				BD4180F6253090C0001DD9C0 /* sushia_appApp.swift in Sources */,
+				BD41814D2530DE93001DD9C0 /* HomeView.swift in Sources */,
+				BD4181482530CED4001DD9C0 /* DetailView.swift in Sources */,
+				BD41812925309E5E001DD9C0 /* ItemClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
